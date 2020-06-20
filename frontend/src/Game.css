@@ -1,0 +1,186 @@
+.GameContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.RoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.RoundLabelsContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.RoundLabelsContainerLabel {
+    display: inline-block;
+    width: 100%;
+}
+
+.UserLabel {
+    font-weight: bold;
+}
+
+.RoundLabelsContainerLabelDiv {
+    display: flex;
+    width: 100%;
+}
+
+.RoundButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+#TimerDiv {
+    margin: 0 auto;
+    font-size: 1.4em;
+    padding: 8px 8px;
+}
+
+#TimerReplacementDiv {
+    font-size: 1.4em;;
+    visibility: hidden;
+    margin: 0 auto;
+    padding: 8px 8px;
+}
+
+#WordToExplain {
+    padding: auto;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+#RoundLabelsContainerAnd {
+    margin: auto;
+    padding: 0 8px;
+    justify-content: center;
+}
+
+.GameChild {
+    all: inherit;
+}
+
+.DoNotDisplay {
+    visibility: hidden;
+}
+
+.RoundLabelsContainerChildren {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.Button {
+    background-color: lightgray;
+    padding: 1px 6px;
+    margin: 6px;
+    font-size: 1.1em;
+    text-transform: none;
+}
+
+
+.InRowContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#GameLink {
+}
+
+#CopyButton {
+    width: 32px;
+    display: flex;
+    align-items: center;
+}
+
+
+#CopyButtonImg {
+    height: 1.4em;
+    paddig: auto;
+    margin: auto;
+}
+
+span[data-react-toolbox="tooltip"] {
+    background-color: gray;
+}
+
+.ActiveTab {
+    background-color: lightgray;
+}
+
+.InactiveTab {
+    font-size: 1.1em;
+    text-transform: none;
+}
+
+.GameModeTabs {
+    margin-top: 16px;
+}
+
+
+.GameModeTabs > section {
+    overflow: visible;
+}
+
+.PairSelectionDiv {
+    margin-bottom: 16px;
+}
+
+.PairSelectorDiv {
+    width: 45%;
+}
+
+.PairSelectionPair {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.PairSelectorLeft{
+}
+
+.PairSelectorRight{
+}
+
+.CenterText {
+    text-align: center;
+}
+
+.GameState {
+    padding: 15px 0 0 33px;
+    font-size: 1em;
+    margin: 1px;
+}
+
+.GameStateLabel {
+    display: inline-block;
+    padding: 0 0 0 18px;
+}
+
+
+.InRowContainerSpace {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DictButton {
+    flex-shrink: 0;
+}

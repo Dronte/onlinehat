@@ -1,0 +1,51 @@
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 3px;
+}
+.PlayerListContainer {
+    padding: 9px;
+}
+
+.PlayerList {
+    text-align: left;
+}
+
+.PlayerNameColumn {
+    text-align: left;
+    padding: 5px;
+}
+
+.IsReadyColumn {
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.ExplainPlayerColumn {
+    padding: 0 0 0 10px;
+    color: #404040;
+}
+
+.GuessPlayerColumn {
+    padding: 0 9px 0 1px;
+    color: #808080;
+}
+
+.PlayerResult {
+   padding: 0 9px 0 9px;
+   text-align: center;
+}
+
+.Icon {
+    padding: 0 9px 0 9px;
+    font-size: 1.15em;
+}
+
+td {
+    /* border: 1px  solid #F50; */
+    text-align: center;
+}
+
+.ThisPlayer {
+    font-weight: bold;
+}
